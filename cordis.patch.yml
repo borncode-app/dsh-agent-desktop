@@ -1,0 +1,19 @@
+# Inserts the agent-desktop Host row. The plugin owns the native agent-desktop
+# binary: it installs it, keeps it current on every launch, exposes its
+# commands as first-class tools, and serves the Settings page that shows both.
+- insert:
+    - id: agent-desktop
+      name: '@local/dsh-agent-desktop'
+      config:
+        # Path the Web GUI reads and writes the plugin's data at.
+        endpoint: /plugins/agent-desktop
+        # Check GitHub for a newer release every time the Harness starts.
+        autoUpdate: true
+        # Upstream repository the release and its checksums come from.
+        repo: vercel-labs/agent-desktop
+        # Register the desktop_* tools the model calls.
+        registerTools: true
+        # Add the operating guide to the model's system prompt.
+        guideInPrompt: true
+        # Longest one desktop command may run, in milliseconds.
+        toolTimeoutMs: 60000

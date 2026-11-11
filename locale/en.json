@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Agent desktop",
+    "description": "Lets the agent see and operate this computer through the native agent-desktop CLI. The binary installs itself, updates on every launch, and answers through first-class tools."
+  }
+}

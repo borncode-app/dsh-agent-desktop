@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Agent desktop">
+  <rect x="6" y="10" width="52" height="34" rx="5" fill="none" stroke="#2f6feb" stroke-width="3.5"/>
+  <path d="M22 52h20" stroke="#2f6feb" stroke-width="3.5" stroke-linecap="round"/>
+  <path d="M32 44v8" stroke="#2f6feb" stroke-width="3.5" stroke-linecap="round"/>
+  <path d="M20 22l16 11-7 1.6-3.6 6.6z" fill="#2f6feb" stroke="#ffffff" stroke-width="1.6" stroke-linejoin="round"/>
+</svg>
